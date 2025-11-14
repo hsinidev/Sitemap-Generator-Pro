@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitemap Generator Pro - Create XML Sitemaps Instantly</title>
+    <meta name="description" content="Generate XML sitemaps instantly with our free, user-friendly tool. Input your URLs, configure priority, change frequency, and download your sitemap.xml file in seconds. Perfect for boosting your website's SEO.">
+    <meta name="keywords" content="sitemap generator, xml sitemap, create sitemap, seo tool, sitemap.xml, google sitemap">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              gold: '#FFD700',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+        body {
+            background-color: #000;
+            background-image: radial-gradient(circle at top left, rgba(94, 43, 255, 0.2), transparent 40%),
+                              radial-gradient(circle at bottom right, rgba(255, 43, 94, 0.2), transparent 40%);
+            color: #fff;
+            overflow-x: hidden;
+        }
+    </style>
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "name": "Sitemap Generator Pro",
+          "url": "https://example.com/",
+          "description": "A modern, high-fidelity placeholder UI for a Sitemap Generator. This tool allows users to input URLs, configure XML parameters, and simulate the generation and download of a final XML sitemap file.",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://example.com/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "WebApplication",
+          "name": "Sitemap Generator Pro",
+          "operatingSystem": "All",
+          "applicationCategory": "DeveloperApplication",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "description": "Generate XML sitemaps instantly with a clean, modern user interface. Configure URLs, priority, change frequency, and last modified dates.",
+          "browserRequirements": "Requires a modern web browser with JavaScript enabled."
+        },
+        {
+          "@type": "Article",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://example.com/#guide"
+          },
+          "headline": "The Ultimate Guide to XML Sitemaps: Mastering SEO Indexing in 2024",
+          "author": {
+            "@type": "Person",
+            "name": "HSINI MOHAMED",
+            "url": "https://github.com/hsinidev"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Sitemap Generator Pro",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://example.com/favicon.svg"
+            }
+          },
+          "datePublished": "2023-10-27",
+          "description": "A comprehensive 3500+ word SEO blog post article focused on XML Sitemaps, Search Engine Crawling, and Advanced SEO Indexing. The article covers: the structure of a sitemap file, the meaning of priority and changefreq tags, common sitemap mistakes, and submitting sitemaps to Google/Bing.",
+          "articleBody": "In the vast, ever-expanding universe of the internet, getting your website noticed by search engines is paramount..."
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Do I absolutely need a sitemap?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No, but it's highly recommended. Search engines can crawl your site without one, but a sitemap makes their job easier, faster, and more thorough, especially for large or new websites. It's a foundational SEO best practice."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does the `priority` tag help my page rank higher?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. Google has publicly stated they largely ignore this tag. Its purpose is to signal to crawlers which of your *own* pages you consider most important, potentially influencing crawl order, but it has no direct impact on SERP rankings."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What's the difference between an HTML sitemap and an XML sitemap?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "An HTML sitemap is designed for human users to help them navigate your website. It's typically a regular page with a structured list of links. An XML sitemap is specifically for search engine crawlers, written in a structured format they can easily parse."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
